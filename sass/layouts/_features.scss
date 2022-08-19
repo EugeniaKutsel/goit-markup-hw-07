@@ -1,17 +1,17 @@
 .features {
     @extend %section
 }
-.features-list {
+.features__list {
     display: flex;
 }
 
-.features-list__item {
+.features__item {
     width: 270px;
     margin-right: 30px;
-}
 
-.features-list__item:last-child {
-    margin-right: 0;
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
 .features-box {
@@ -26,7 +26,7 @@
     border-radius: 4px;
 }
 
-.features-list__title {
+.features__title {
     margin-bottom: 10px;
 
     font-size: 14px;
@@ -34,7 +34,7 @@
     text-transform: uppercase;
 }
 
-.features-list__text {
+.features__text {
     line-height: 1.71;
 
     color: var(--second-text-color);

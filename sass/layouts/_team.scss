@@ -4,11 +4,11 @@
     background-color: var(--second-background-color);
 }
 
-.team-list {
+.team__list {
     display: flex;
 }
 
-.team-list__item {
+.team__item {
     width: 270px;
     margin-right: 30px;
 
@@ -42,13 +42,13 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-icon-list {
+.socials {
     display: flex;
     margin-top: 16px;
     padding: 0 32px;
 }
 
-.team-icon-list__item {
+.socials__item {
     margin-right: 10px;
 
     &:last-child {
@@ -56,7 +56,7 @@
         }
 }
 
-.team-icon-list__link {
+.socials__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -77,6 +77,6 @@
         }
 }
 
-.team-icon-list__icon {
+.socials__icon {
     fill: currentColor;
 }

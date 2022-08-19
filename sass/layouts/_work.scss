@@ -1,14 +1,12 @@
-/* Work section */
-
 .work {
     padding-bottom: 94px;
 }
 
-.work-list {
+.work__list {
     display: flex;
 }
 
-.work-list__item {
+.work__item {
     position: relative;
     margin-right: 30px;
 
@@ -17,7 +15,7 @@
         }
 }
 
-.work-list__title {
+.work__title {
     position: absolute;
     left: 0;
     bottom: 0;
